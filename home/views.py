@@ -5,4 +5,5 @@ from django.http import HttpResponse, Http404
 
 def home(request):
     # for prototype
-    return HttpResponse("Hello, this is planner prototype.")
+    # return HttpResponse("Hello, this is planner prototype.")
+    return render(request, 'home.html')
